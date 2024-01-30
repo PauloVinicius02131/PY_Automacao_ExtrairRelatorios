@@ -28,11 +28,11 @@ def funcaoLogin():
     try:
         # Email
         WebDriverWait(driver, 5).until(
-            EC.presence_of_element_located((By.ID, 'formUsrLogin'))).send_keys('pauloviniciuscsc@gmail.com')
+            EC.presence_of_element_located((By.ID, 'formUsrLogin'))).send_keys('@gmail.com')
 
         # Senha
         WebDriverWait(driver, 5).until(
-            EC.presence_of_element_located((By.ID, 'formPasswordLogin'))).send_keys("QUzd")
+            EC.presence_of_element_located((By.ID, 'formPasswordLogin'))).send_keys("zzzzz")
 
         # Achar Botão Login
         WebDriverWait(driver, 5).until(
